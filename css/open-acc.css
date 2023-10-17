@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img {
+    padding-top: 8px;
+}
+
+.main-header {
+    /* position: fixed; */
+    /* width: 1170px; */
+    /* top: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.nav-section {
+    display: flex;
+}
+
+.nav-row {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link a {
+    margin-left: 50px;
+    padding-top: 19px;
+    padding-bottom: 23px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-link a:hover {
+    color: rgb(225, 181, 100);
+}
+
+.btn-log {
+    margin-left: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    width: 58px;
+    height: 24px;
+    border: none;
+    background-color: #D9D9D9;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-log:hover,
+.btn-open-acc:hover,
+.language:hover {
+    background-color: #01BAB3;
+}
+
+.btn-open-acc {
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    width: 122px;
+    height: 24px;
+    border: none;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #D9D9D9;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.language {
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    width: 55px;
+    height: 24px;
+    border: none;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #D9D9D9;
+    font-size: 14px;
+}
+
+.language:focus {
+    outline: none;
+}
+
+.header-bcg {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+}
+
+.open-acc-bcg {
+    background-color: #F4F8FA;
+}
+
+.open-acc-sec {
+    padding-top: 80px;
+    padding-bottom: 64px;
+}
+
+.open-acc-card {
+    width: 496px;
+    height: 849px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-sec {
+    margin-left: 40px;
+    display: flex;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-big {
+    display: flex;
+}
+
+.skype,
+.promo {
+    display: flex;
+    flex-direction: column;
+}
+
+.open-acc-header {
+    text-align: center;
+}
+
+.open-acc-header img {
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.open-acc-header h1 {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.open-acc-header p {
+    margin-bottom: 56px;
+    display: inline-block;
+    color: #444150;
+    font-size: 16px;
+
+    line-height: 26px;
+}
+
+.open-acc-header a {
+    margin-bottom: 56px;
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.name label,
+.last-name label {
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.star {
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.name input,
+.last-name input {
+    padding-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+    width: 200px;
+    height: 48px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid #D9D9D9;
+    background: #FBFBFB;
+}
+
+.date {
+    margin-left: 40px;
+}
+
+.date label {
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.date input {
+    padding-left: 16px;
+    margin-bottom: 24px;
+    width: 416px;
+    height: 48px;
+    border-radius: 6px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid #D9D9D9;
+    background: #FBFBFB;
+}
+
+.gender,
+.gender-big {
+    margin-left: 40px;
+
+}
+
+.gender h3 {
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.male {
+    margin-bottom: 24 px;
+    margin-right: 16px;
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.female {
+    margin-bottom: 24px;
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.male label,
+.female label {
+    padding-top: 10px;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.skype {
+    margin-left: 40px;
+}
+
+.skype label {
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.skype input {
+    margin-bottom: 24px;
+    padding-left: 16px;
+    border: 1px solid #D9D9D9;
+    width: 416px;
+    height: 48px;
+    border-radius: 6px;
+    color: #444150;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFF;
+}
+
+.promo label {
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.promo input {
+    margin-bottom: 24px;
+    padding-left: 16px;
+    border: 1px solid #D9D9D9;
+    width: 416px;
+    height: 48px;
+    border-radius: 6px;
+    color: #444150;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFF;
+}
+
+.promo {
+    margin-left: 40px;
+}
+
+input::placeholder {
+    color: #444150;
+    opacity: 0.5;
+}
+
+.btn button {
+    margin-left: 40px;
+    border-radius: 4px;
+    width: 416px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    background: var(--01-bab-3, #01BAB3);
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.footer p {
+    padding-bottom: 25px;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
